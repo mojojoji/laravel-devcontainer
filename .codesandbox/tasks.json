@@ -4,6 +4,10 @@
         {
             "name": "Installing Dependencies",
             "command": "composer install"
+        },
+        {
+            "name": "Generate app key",
+            "command": "php artisan key:generate"
         }
     ],
 
