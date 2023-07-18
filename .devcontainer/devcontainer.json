@@ -1,0 +1,27 @@
+// https://aka.ms/devcontainer.json
+{
+    "name": "Existing Docker Compose (Extend)",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "laravel.test",
+    "workspaceFolder": "/var/www/html",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // "mikestead.dotenv",
+                // "amiralizadeh9480.laravel-extra-intellisense",
+                // "ryannaddy.laravel-artisan",
+                // "onecentlin.laravel5-snippets",
+                // "onecentlin.laravel-blade"
+            ],
+            "settings": {}
+        }
+    }
+    // CODESANDBOX remoteUser commented as sail user is not needed
+    // "remoteUser": "sail",
+    // CODESANDBOX postCreateCommand commented we use root and permissions are already valid
+    // "postCreateCommand": "chown -R 1000:1000 /var/www/html"
+
+    // "forwardPorts": [],
+    // "runServices": [],
+    // "shutdownAction": "none",
+}
