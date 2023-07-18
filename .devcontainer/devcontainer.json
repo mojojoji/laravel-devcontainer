@@ -16,8 +16,11 @@
             "settings": {}
         }
     }
+    // CODESANDBOX remoteUser commented as sail user is not needed
     // "remoteUser": "sail",
+    // CODESANDBOX postCreateCommand commented we use root and permissions are already valid
     // "postCreateCommand": "chown -R 1000:1000 /var/www/html"
+
     // "forwardPorts": [],
     // "runServices": [],
     // "shutdownAction": "none",
