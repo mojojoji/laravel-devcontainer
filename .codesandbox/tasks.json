@@ -3,7 +3,7 @@
     "setupTasks": [
         {
             "name": "Installing Dependencies",
-            "command": "composer install"
+            "command": "COMPOSER_ALLOW_SUPERUSER=1 composer install --no-interaction"
         },
         {
             "name": "Generate app key",
