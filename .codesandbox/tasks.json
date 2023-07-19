@@ -6,10 +6,6 @@
             "command": "COMPOSER_ALLOW_SUPERUSER=1 composer install --no-interaction"
         },
         {
-            "name": "Copy env file",
-            "command": "cp .env.dev .env"
-        },
-        {
             "name": "Generate app key",
             "command": "php artisan key:generate"
         }
